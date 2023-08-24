@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DgnwWZUOpVhfvznAp/DPZplzliQypO4b/IBgabSlENil0FwKimSgAEDlI9KYf/nE7R+XGLy38jQpK23Pl8+N/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\NotesApp\\NotesApp\\NotesApp.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thesolian\\.nuget\\packages\\fsharp.core\\7.0.400\\fsharp.core.7.0.400.nupkg.sha512"
+  ],
+  "logs": []
+}
