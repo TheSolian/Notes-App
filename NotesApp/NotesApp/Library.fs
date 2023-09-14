@@ -34,3 +34,15 @@ module Notes =
                 "Note created"
             else 
                 "Note already exists"
+
+    let deleteNote =
+        fun file ->
+            let path = file + ".txt"
+            if File.Exists(path) then
+                File.Delete(path)
+
+    let updateNote =
+        fun file text ->
+            let path = file + ".txt"
+            if File.Exists(path) then
+                File.WriteAllText(path, text)
