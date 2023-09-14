@@ -1,0 +1,13 @@
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\bin\Debug\net7.0\NotesApp.deps.json
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\bin\Debug\net7.0\NotesApp.dll
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\bin\Debug\net7.0\NotesApp.pdb
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\bin\Debug\net7.0\NotesApp.xml
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\NotesApp.fsproj.AssemblyReference.cache
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\NotesApp.AssemblyInfoInputs.cache
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\NotesApp.AssemblyInfo.fs
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\NotesApp.fsproj.CoreCompileInputs.cache
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\NotesApp.dll
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\refint\NotesApp.dll
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\NotesApp.xml
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\NotesApp.pdb
+C:\Users\thesolian\Desktop\Lernatelier\LA0110\Notes-App\NotesApp\NotesApp\obj\Debug\net7.0\ref\NotesApp.dll

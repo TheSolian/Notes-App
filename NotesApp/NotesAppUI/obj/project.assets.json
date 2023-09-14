@@ -132,11 +132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
+      "projectUniqueName": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
       "projectName": "NotesAppUI",
-      "projectPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
+      "projectPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
       "packagesPath": "C:\\Users\\thesolian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\NotesApp\\NotesAppUI\\obj\\",
+      "outputPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,8 +157,8 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\NotesApp\\NotesApp\\NotesApp.fsproj": {
-              "projectPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\NotesApp\\NotesApp\\NotesApp.fsproj"
+            "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj": {
+              "projectPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj"
             }
           }
         }

@@ -1,3 +1,5 @@
+using NotesApp;
+
 namespace NotesAppUI
 {
     public partial class Form1 : Form
