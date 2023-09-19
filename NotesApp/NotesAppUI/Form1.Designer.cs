@@ -28,80 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            listView1 = new ListView();
-            button1 = new Button();
-            textBox1 = new TextBox();
-            button2 = new Button();
             label1 = new Label();
+            listBox1 = new ListBox();
+            addButton = new Button();
+            deleteButton = new Button();
+            editor = new RichTextBox();
+            saveButton = new Button();
             SuspendLayout();
-            // 
-            // listView1
-            // 
-            listView1.Location = new Point(43, 78);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(242, 194);
-            listView1.TabIndex = 0;
-            listView1.UseCompatibleStateImageBehavior = false;
-            listView1.Click += listView1_Click;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(373, 87);
-            button1.Name = "button1";
-            button1.Size = new Size(150, 46);
-            button1.TabIndex = 1;
-            button1.Text = "Delete";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(373, 207);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(200, 39);
-            textBox1.TabIndex = 2;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(594, 203);
-            button2.Name = "button2";
-            button2.Size = new Size(150, 46);
-            button2.TabIndex = 3;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(192, 71);
+            label1.Location = new Point(118, 44);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(0, 32);
+            label1.Size = new Size(0, 20);
             label1.TabIndex = 4;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 20;
+            listBox1.Location = new Point(12, 52);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(149, 484);
+            listBox1.TabIndex = 5;
+            listBox1.Click += listBox1_Click;
+            // 
+            // addButton
+            // 
+            addButton.Location = new Point(12, 12);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(73, 29);
+            addButton.TabIndex = 6;
+            addButton.Text = "Add";
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += addButton_Click;
+            // 
+            // deleteButton
+            // 
+            deleteButton.Location = new Point(91, 12);
+            deleteButton.Name = "deleteButton";
+            deleteButton.Size = new Size(70, 29);
+            deleteButton.TabIndex = 7;
+            deleteButton.Text = "Delete";
+            deleteButton.UseVisualStyleBackColor = true;
+            deleteButton.Click += deleteButton_Click;
+            // 
+            // editor
+            // 
+            editor.Location = new Point(180, 52);
+            editor.Name = "editor";
+            editor.Size = new Size(676, 484);
+            editor.TabIndex = 9;
+            editor.Text = "";
+            // 
+            // saveButton
+            // 
+            saveButton.Location = new Point(762, 12);
+            saveButton.Name = "saveButton";
+            saveButton.Size = new Size(94, 29);
+            saveButton.TabIndex = 10;
+            saveButton.Text = "Save";
+            saveButton.UseVisualStyleBackColor = true;
+            saveButton.Click += saveButton_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(868, 548);
+            Controls.Add(saveButton);
+            Controls.Add(editor);
+            Controls.Add(deleteButton);
+            Controls.Add(addButton);
+            Controls.Add(listBox1);
             Controls.Add(label1);
-            Controls.Add(button2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
-            Controls.Add(listView1);
+            Margin = new Padding(2);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Notes";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private ListView listView1;
-        private Button button1;
-        private TextBox textBox1;
-        private Button button2;
         private Label label1;
+        private ListBox listBox1;
+        private Button addButton;
+        private Button deleteButton;
+        private RichTextBox editor;
+        private Button saveButton;
     }
 }

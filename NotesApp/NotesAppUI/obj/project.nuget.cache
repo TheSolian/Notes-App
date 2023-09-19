@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "L2wPqfI3xZCZ5Xedm3fOui7FttZNRuXDTsTc9WGxI7n++B9ccRBT6Mo/OjA+HnMrqhKH2ySyfUHTMWs9bxoO3g==",
+  "dgSpecHash": "enlrpN+PFhNItfh6NGfMdN57ENDSSdjAG5UykPOUe7ZzQuZqXewhMG3q+Uz0o9p7yKaSGc83iDizYmlvZilfJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
+  "projectFilePath": "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thesolian\\.nuget\\packages\\fsharp.core\\7.0.400\\fsharp.core.7.0.400.nupkg.sha512"
+    "C:\\Users\\Jan\\.nuget\\packages\\fsharp.core\\7.0.400\\fsharp.core.7.0.400.nupkg.sha512"
   ],
   "logs": []
 }

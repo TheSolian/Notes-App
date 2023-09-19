@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj": {}
+    "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj": {
+    "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
+        "projectUniqueName": "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
         "projectName": "NotesAppUI",
-        "projectPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
-        "packagesPath": "C:\\Users\\thesolian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesAppUI\\obj\\",
+        "projectPath": "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesAppUI\\NotesAppUI.csproj",
+        "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesAppUI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\thesolian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
         },
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj": {
-                "projectPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj"
+              "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj": {
+                "projectPath": "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj"
               }
             }
           }
@@ -66,25 +63,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj": {
+    "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj",
+        "projectUniqueName": "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj",
         "projectName": "NotesApp",
-        "projectPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj",
-        "packagesPath": "C:\\Users\\thesolian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thesolian\\Desktop\\Lernatelier\\LA0110\\Notes-App\\NotesApp\\NotesApp\\obj\\",
+        "projectPath": "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesApp\\NotesApp.fsproj",
+        "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jan\\OneDrive - BBBaden\\Desktop\\IMS\\Lernatelier-3\\Notes-App\\NotesApp\\NotesApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\thesolian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +85,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.400\\FSharp\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\sdk\\7.0.401\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -129,7 +123,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

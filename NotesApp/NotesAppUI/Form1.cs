@@ -4,45 +4,58 @@ namespace NotesAppUI
 {
     public partial class Form1 : Form
     {
+        private string _selectedItem = "";
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void LoadList()
+        private void Form1_Load(object sender, EventArgs e)
         {
-            var files = Notes.getNotesFromFolder(Program.FOLDER_PATH);
-            listView1.Items.Clear();
-
-            foreach (var file in files)
+            Program.LoadList(listBox1);
+            if (listBox1.SelectedItems.Count <= 0)
             {
-                listView1.Items.Add(file);
+                editor.Enabled = false;
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void addButton_Click(object sender, EventArgs e)
         {
-            LoadList();
+            CreateDialog noteDialog = new("Create Note", listBox1);
+
+            noteDialog.StartPosition = FormStartPosition.CenterParent;
+            noteDialog.FormBorderStyle = FormBorderStyle.FixedSingle;
+
+            noteDialog.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void listBox1_Click(object sender, EventArgs e)
         {
-            Notes.deleteNote(Path.Combine(Program.FOLDER_PATH, listView1.SelectedItems[0].Text));
-            LoadList();
+            if (listBox1.SelectedItems.Count <= 0)
+            {
+                editor.Text = "";
+                return;
+            }
+
+            _selectedItem = listBox1.SelectedItem.ToString();
+            var noteContent = Notes.readContentFromNote(Path.Combine(Program.FOLDER_PATH, _selectedItem));
+
+            editor.Enabled = true;
+            editor.Text = noteContent;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void saveButton_Click(object sender, EventArgs e)
         {
-            string text = textBox1.Text;
-            string file = Path.Combine(Program.FOLDER_PATH, listView1.SelectedItems[0].Text);
-
-            Notes.updateNote(file, text);
+            Notes.updateNote(Path.Combine(Program.FOLDER_PATH, _selectedItem), editor.Text);
         }
 
-        private void listView1_Click(object sender, EventArgs e)
+        private void deleteButton_Click(object sender, EventArgs e)
         {
-            string text = Notes.readContentFromNote(Path.Combine(Program.FOLDER_PATH, listView1.SelectedItems[0].Text));
-            textBox1.Text = text;
+            Notes.deleteNote(Path.Combine(Program.FOLDER_PATH, _selectedItem));
+            editor.Text = "";
+            editor.Enabled = false;
+            Program.LoadList(listBox1);
         }
     }
 }
