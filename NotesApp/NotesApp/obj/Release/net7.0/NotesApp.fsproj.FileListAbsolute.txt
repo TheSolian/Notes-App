@@ -1,0 +1,13 @@
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\bin\Release\net7.0\NotesApp.deps.json
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\bin\Release\net7.0\NotesApp.dll
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\bin\Release\net7.0\NotesApp.pdb
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\bin\Release\net7.0\NotesApp.xml
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\NotesApp.fsproj.AssemblyReference.cache
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\NotesApp.AssemblyInfoInputs.cache
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\NotesApp.AssemblyInfo.fs
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\NotesApp.fsproj.CoreCompileInputs.cache
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\NotesApp.dll
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\refint\NotesApp.dll
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\NotesApp.xml
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\NotesApp.pdb
+C:\Users\Jan\OneDrive - BBBaden\Desktop\IMS\Lernatelier-3\Notes-App\NotesApp\NotesApp\obj\Release\net7.0\ref\NotesApp.dll
